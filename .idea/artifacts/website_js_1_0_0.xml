@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="website-js-1.0.0">
+    <output-path>$PROJECT_DIR$/website/build/libs</output-path>
+    <root id="archive" name="website-js-1.0.0.jar">
+      <element id="module-output" name="KobwebTemplate.website.jsMain" />
+    </root>
+  </artifact>
+</component>
