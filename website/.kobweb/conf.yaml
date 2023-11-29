@@ -1,0 +1,15 @@
+site:
+  title: "website"
+  routePrefix: "/"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/dist/js/developmentExecutable/website.js"
+      api: "build/libs/website.js"
+    prod:
+      siteRoot: ".kobweb/website"
+      script: "build/dist/js/productionExecutable/website.js"
+
+  port: 8080
